@@ -1,1 +1,43 @@
-This is a blog
+{% extends 'base.html' %}
+
+{% block css %}
+<!-- Application CSS -->
+<link href="/static/style.css" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block title %}
+    Create Post
+{% endblock %}
+
+{% block content %}
+<div class="container text-center">
+
+{% if auth() %}
+
+    {% if auth().is_admin == True %}
+        <form action="/blog/create" method="POST">
+            {{ csrf_field }}
+
+            <div class="form-group">
+                <label for="title"> Title </label>
+                <input type="text" class="form-control" name="title" id="title"><br>
+            </div>
+
+            <div class="form-group">
+                <label for="body"> Body </label>
+                <input type="textarea" class="form-control" name="body" id="body"><br>
+            </div>
+
+            <input type="submit" value="Post!">
+        </form>
+    {% else %}
+        <p> You don't have permission </p>
+    {% endif %}
+
+{% else %}
+    <a href="/login">Please Login</a>
+{% endif %}
+</div>
+
+{% endblock %}
+

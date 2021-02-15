@@ -3,7 +3,7 @@
 from masonite.request import Request
 from masonite.view import View
 from masonite.controllers import Controller
-
+from app.Post import Post
 
 class BlogController(Controller):
     """BlogController Controller Class."""
@@ -18,3 +18,13 @@ class BlogController(Controller):
 
     def show(self, view: View):
         return view.render('blog')
+
+    # New store Method
+    def store(self, request: Request):
+        Post.create(
+            title=request.input('title'),
+            body=request.input('body'),
+            author_id=request.user().id
+        )
+
+        return 'post created'
