@@ -10,7 +10,7 @@ class CreateUsersTable(Migration):
             table.string("email").unique()
             table.string("password")
             table.string("remember_token").nullable()
-            table.boolean("is_admin").nullable()
+            table.boolean("is_admin").default(False)
             table.timestamp("verified_at").nullable()
             table.timestamps()
 
