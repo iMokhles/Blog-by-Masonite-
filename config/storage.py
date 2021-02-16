@@ -57,4 +57,5 @@ STATICFILES = {
     "storage/compiled": "static/",
     "storage/uploads": "static/",
     "storage/public": "/",
+    "storage/compiled/packages": "packages/",
 }

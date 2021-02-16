@@ -78,3 +78,119 @@
 2021-02-15 17:55:07 - INFO - "GET /login HTTP/1.1" 200 3619
 2021-02-15 17:55:07 - INFO - "POST /login HTTP/1.1" 302 15
 2021-02-15 17:55:07 - INFO - "GET /login HTTP/1.1" 200 3886
+2021-02-16 00:58:01 - ERROR - UndefinedError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 11
+2021-02-16 00:58:01 - ERROR - "GET / HTTP/1.1" 500 1089993
+2021-02-16 00:58:28 - ERROR - UndefinedError in 0 on line 0
+2021-02-16 00:58:28 - ERROR - "GET / HTTP/1.1" 500 1092693
+2021-02-16 00:58:48 - INFO - "GET / HTTP/1.1" 200 913
+2021-02-16 00:58:48 - INFO - "GET / HTTP/1.1" 200 913
+2021-02-16 00:59:07 - INFO - "GET / HTTP/1.1" 200 913
+2021-02-16 00:59:07 - INFO - "GET / HTTP/1.1" 200 913
+2021-02-16 00:59:07 - INFO - "GET / HTTP/1.1" 200 913
+2021-02-16 00:59:07 - INFO - "GET / HTTP/1.1" 200 913
+2021-02-16 00:59:07 - INFO - "GET / HTTP/1.1" 200 913
+2021-02-16 00:59:07 - INFO - "GET / HTTP/1.1" 200 913
+2021-02-16 01:00:12 - ERROR - ContainerError in 0 on line 0
+2021-02-16 01:00:12 - ERROR - "GET / HTTP/1.1" 500 971675
+2021-02-16 01:00:16 - ERROR - ContainerError in 0 on line 0
+2021-02-16 01:00:16 - ERROR - "GET / HTTP/1.1" 500 971633
+2021-02-16 01:00:29 - INFO - "GET / HTTP/1.1" 200 934
+2021-02-16 01:00:29 - INFO - "GET / HTTP/1.1" 200 934
+2021-02-16 01:00:29 - INFO - "GET / HTTP/1.1" 200 934
+2021-02-16 01:01:06 - INFO - "GET / HTTP/1.1" 200 987
+2021-02-16 01:02:19 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 4
+2021-02-16 01:02:19 - ERROR - "GET / HTTP/1.1" 500 1087619
+2021-02-16 01:02:41 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 4
+2021-02-16 01:02:41 - ERROR - "GET / HTTP/1.1" 500 1087526
+2021-02-16 01:02:47 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 4
+2021-02-16 01:02:47 - ERROR - "GET / HTTP/1.1" 500 1087526
+2021-02-16 01:10:14 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 17
+2021-02-16 01:10:14 - ERROR - "GET / HTTP/1.1" 500 1032098
+2021-02-16 01:10:48 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 17
+2021-02-16 01:10:48 - ERROR - "GET / HTTP/1.1" 500 1032056
+2021-02-16 01:12:26 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 17
+2021-02-16 01:12:26 - ERROR - "GET / HTTP/1.1" 500 1032060
+2021-02-16 01:12:40 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 17
+2021-02-16 01:12:40 - ERROR - "GET / HTTP/1.1" 500 1088178
+2021-02-16 01:13:21 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 19
+2021-02-16 01:13:21 - ERROR - "GET / HTTP/1.1" 500 1027483
+2021-02-16 01:13:37 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 19
+2021-02-16 01:13:37 - ERROR - "GET / HTTP/1.1" 500 1027373
+2021-02-16 01:14:22 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 19
+2021-02-16 01:14:22 - ERROR - "GET / HTTP/1.1" 500 1027365
+2021-02-16 01:15:13 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 18
+2021-02-16 01:15:13 - ERROR - "GET / HTTP/1.1" 500 1028016
+2021-02-16 01:15:44 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 18
+2021-02-16 01:15:44 - ERROR - "GET / HTTP/1.1" 500 1027974
+2021-02-16 01:17:13 - INFO - "GET / HTTP/1.1" 200 1287
+2021-02-16 01:17:13 - INFO - "GET /packages/source-sans-pro/source-sans-pro.css HTTP/1.1" 200 4819
+2021-02-16 01:17:13 - INFO - "GET / HTTP/1.1" 200 1287
+2021-02-16 01:18:53 - INFO - "GET / HTTP/1.1" 200 1347
+2021-02-16 01:18:53 - INFO - "GET / HTTP/1.1" 200 1347
+2021-02-16 01:18:53 - INFO - "GET / HTTP/1.1" 200 1359
+2021-02-16 01:18:53 - INFO - "GET / HTTP/1.1" 200 1359
+2021-02-16 01:18:53 - INFO - "GET / HTTP/1.1" 200 1359
+2021-02-16 01:18:53 - INFO - "GET /packages/backpack/base/css/bundle.css?v=1613438333.832454 HTTP/1.1" 200 719413
+2021-02-16 01:18:53 - INFO - "GET /packages/line-awesome/css/line-awesome.min.css?v=1613438333.832454 HTTP/1.1" 200 89729
+2021-02-16 01:18:53 - INFO - "GET /packages/source-sans-pro/source-sans-pro.css?v=1613438333.832454 HTTP/1.1" 200 4819
+2021-02-16 01:18:53 - INFO - "GET /favicon.ico HTTP/1.1" 200 1739
+2021-02-16 03:15:33 - ERROR - UndefinedError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 17
+2021-02-16 03:15:33 - ERROR - "GET / HTTP/1.1" 500 1090170
+2021-02-16 03:16:18 - ERROR - UndefinedError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 17
+2021-02-16 03:16:18 - ERROR - "GET / HTTP/1.1" 500 1090128
+2021-02-16 03:17:57 - ERROR - UndefinedError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 17
+2021-02-16 03:17:57 - ERROR - "GET / HTTP/1.1" 500 1090179
+2021-02-16 03:18:28 - ERROR - UndefinedError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/head.html on line 17
+2021-02-16 03:18:28 - ERROR - "GET / HTTP/1.1" 500 1090137
+2021-02-16 03:21:07 - INFO - "GET / HTTP/1.1" 200 12746
+2021-02-16 03:21:07 - INFO - "GET /favicon.ico HTTP/1.1" 200 1739
+2021-02-16 03:21:07 - INFO - "GET / HTTP/1.1" 200 1362
+2021-02-16 03:21:07 - INFO - "GET /packages/line-awesome/css/line-awesome.min.css?v=1613445670.0572748 HTTP/1.1" 200 89729
+2021-02-16 03:21:07 - INFO - "GET /packages/backpack/base/css/bundle.css?v=1613445670.0572748 HTTP/1.1" 200 719413
+2021-02-16 03:21:07 - INFO - "GET /packages/source-sans-pro/source-sans-pro.css?v=1613445670.0572748 HTTP/1.1" 200 4819
+2021-02-16 03:21:07 - INFO - "GET / HTTP/1.1" 200 1362
+2021-02-16 03:24:34 - INFO - "GET /packages/backpack/base/css/bundle.css?v=1613445670.0572748 HTTP/1.1" 200 719413
+2021-02-16 03:24:34 - INFO - "GET / HTTP/1.1" 200 2452
+2021-02-16 03:27:18 - INFO - "GET / HTTP/1.1" 200 1463
+2021-02-16 03:27:18 - INFO - "GET / HTTP/1.1" 200 1463
+2021-02-16 03:27:18 - INFO - "GET /packages/line-awesome/css/line-awesome.min.css?v=1613446039.403818 HTTP/1.1" 200 89729
+2021-02-16 03:27:18 - INFO - "GET /packages/backpack/base/css/bundle.css?v=1613446039.403818 HTTP/1.1" 200 719413
+2021-02-16 03:27:18 - INFO - "GET /packages/source-sans-pro/source-sans-pro.css?v=1613446039.403818 HTTP/1.1" 200 4819
+2021-02-16 03:27:18 - INFO - "GET /packages/backpack/base/js/bundle.js?v=1613446039.403818 HTTP/1.1" 200 876302
+2021-02-16 03:27:18 - INFO - "GET /favicon.ico HTTP/1.1" 200 1739
+2021-02-16 03:27:18 - INFO - "GET / HTTP/1.1" 200 1473
+2021-02-16 03:32:55 - ERROR - TemplateAssertionError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/layout.html on line 27
+2021-02-16 03:32:55 - ERROR - "GET / HTTP/1.1" 500 1017527
+2021-02-16 03:33:28 - ERROR - TemplateAssertionError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/layout.html on line 27
+2021-02-16 03:33:28 - ERROR - "GET / HTTP/1.1" 500 1017485
+2021-02-16 03:33:39 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/footer.html on line 3
+2021-02-16 03:33:39 - ERROR - "GET / HTTP/1.1" 500 1031358
+2021-02-16 03:45:39 - ERROR - TemplateNotFound in 0 on line 0
+2021-02-16 03:45:39 - ERROR - "GET / HTTP/1.1" 500 1053820
+2021-02-16 03:58:05 - ERROR - RouteException in 0 on line 0
+2021-02-16 03:58:05 - ERROR - "GET / HTTP/1.1" 500 1045277
+2021-02-16 03:58:44 - ERROR - RouteException in 0 on line 0
+2021-02-16 03:58:44 - ERROR - "GET / HTTP/1.1" 500 1045277
+2021-02-16 03:59:01 - ERROR - RouteException in 0 on line 0
+2021-02-16 03:59:01 - ERROR - "GET / HTTP/1.1" 500 1045277
+2021-02-16 03:59:37 - ERROR - RouteException in 0 on line 0
+2021-02-16 03:59:37 - ERROR - "GET / HTTP/1.1" 500 1045281
+2021-02-16 03:59:58 - ERROR - RouteException in 0 on line 0
+2021-02-16 03:59:58 - ERROR - "GET / HTTP/1.1" 500 1045250
+2021-02-16 04:04:11 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/sidebar.html on line 24
+2021-02-16 04:04:11 - ERROR - "GET / HTTP/1.1" 500 1031208
+2021-02-16 04:04:42 - ERROR - TemplateSyntaxError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/layouts/admin/inc/sidebar.html on line 24
+2021-02-16 04:04:42 - ERROR - "GET / HTTP/1.1" 500 1031166
+2021-02-16 12:14:34 - INFO - "GET / HTTP/1.1" 200 6011
+2021-02-16 12:14:34 - INFO - "GET /packages/backpack/base/js/bundle.js?v=1613477678.803958 HTTP/1.1" 200 876302
+2021-02-16 12:14:34 - INFO - "GET /packages/source-sans-pro/source-sans-pro.css?v=1613477678.803958 HTTP/1.1" 200 4819
+2021-02-16 12:14:34 - INFO - "GET /packages/line-awesome/css/line-awesome.min.css?v=1613477678.803958 HTTP/1.1" 200 89729
+2021-02-16 12:14:34 - INFO - "GET /packages/backpack/base/css/bundle.css?v=1613477678.803958 HTTP/1.1" 200 719413
+2021-02-16 12:14:34 - INFO - "GET /favicon.ico HTTP/1.1" 200 1739
+2021-02-16 12:14:44 - INFO - "GET / HTTP/1.1" 302 15
+2021-02-16 12:14:49 - ERROR - TemplateNotFound in 0 on line 0
+2021-02-16 12:14:49 - ERROR - "GET /login HTTP/1.1" 500 1027679
+2021-02-16 12:15:35 - INFO - "GET /login HTTP/1.1" 200 123
+2021-02-16 12:15:35 - INFO - "GET /login HTTP/1.1" 200 123
+2021-02-16 12:18:49 - ERROR - UndefinedError in /Users/imokhles/Documents/projects/PY/Blog/resources/templates/admin/auth/login.html on line 62
+2021-02-16 12:18:49 - ERROR - "GET /login HTTP/1.1" 500 1092330

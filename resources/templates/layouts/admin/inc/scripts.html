@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+@if (config('backpack.base.scripts') and len(config('backpack.base.scripts')))
+    @for path in config('backpack.base.scripts')
+        <script type="text/javascript" src="/{{ path }}?v={{ config('backpack.base.cachebusting_string') }}"></script>
+    @endfor
+@endif

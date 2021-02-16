@@ -1,10 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<!-- =================================================== -->
+<!-- ========== Top menu items (ordered left) ========== -->
+<!-- =================================================== -->
+<ul class="nav navbar-nav d-md-down-none">
+
+    @if (auth() and auth().is_admin == True)
+        <!-- Topbar. Contains the left part -->
+        @include 'layouts/admin/inc/topbar_left_content.html'
+    @endif
+
+</ul>
+<!-- ========== End of top menu left items ========== -->
+
+
+
+<!-- ========================================================= -->
+<!-- ========= Top menu right items (ordered right) ========== -->
+<!-- ========================================================= -->
+<ul class="nav navbar-nav ml-auto">
+    @if (not auth())
+        <li class="nav-item"><a class="nav-link" href="/admin/login">Login</a>
+        </li>
+        @if (config('backpack.base.registration_open'))
+            <li class="nav-item"><a class="nav-link" href="/admin/register">Register</a></li>
+        @endif
+    @else
+        <!-- Topbar. Contains the right part -->
+        @include 'layouts/admin/inc/topbar_right_content.html'
+        @include 'layouts/admin/inc/menu_user_dropdown.html'
+    @endif
+</ul>
+<!-- ========== End of top menu right items ========== -->

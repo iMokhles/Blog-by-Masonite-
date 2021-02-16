@@ -1,10 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+@extends 'layouts/admin/layout_guest.html'
+
+@block content
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-4">
+            <h3 class="text-center mb-4">Login</h3>
+            <div class="card">
+                <div class="card-body">
+                    <form class="col-md-12 p-t-10" role="form" method="POST" action="/admin/login">
+                         {{ csrf_field }}
+
+                        <div class="form-group">
+                            <label class="control-label" for="email">{{ config('backpack.base.authentication_column_name') }}</label>
+
+                            <div>
+{#                                {{ $errors->has($username) ? ' is-invalid' : '' }}" name="{{ $username }} #}
+                                <input type="text" class="form-control" value="{{ old('email') }}" id="email">
+
+{#                                @if ($errors->has($username))#}
+{#                                    <span class="invalid-feedback">#}
+{#                                        <strong>{{ $errors->first($username) }}</strong>#}
+{#                                    </span>#}
+{#                                @endif#}
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label" for="password">Password</label>
+
+                            <div>
+{#                                {{ $errors->has('password') ? ' is-invalid' : ''  #}
+                                <input type="password" class="form-control }}" name="password" id="password">
+
+{#                                @if ($errors->has('password'))#}
+{#                                    <span class="invalid-feedback">#}
+{#                                        <strong>{{ $errors->first('password') }}</strong>#}
+{#                                    </span>#}
+{#                                @endif#}
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" name="remember"> Remember Me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div>
+                                <button type="submit" class="btn btn-block btn-primary">
+                                    Login
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+{#            @if (backpack_users_have_email() and config('backpack.base.setup_password_recovery_routes', true))#}
+{#                <div class="text-center"><a href="/admin/password/reset">Forgot your password</a></div>#}
+{#            @endif#}
+            @if (config('backpack.base.registration_open'))
+                <div class="text-center"><a href="/admin/register">Register</a></div>
+            @endif
+        </div>
+    </div>
+@endblock

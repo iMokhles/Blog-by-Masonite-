@@ -1,1 +1,2 @@
 from .UserModelProvider import UserModelProvider
+from .ViewComposerProvider import ViewComposerProvider

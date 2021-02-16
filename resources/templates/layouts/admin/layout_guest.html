@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="{{ config('backpack.base.html_direction') }}">
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+    @include 'layouts/admin/inc/head.html'
 </head>
-<body>
-$END$
+<body class="app flex-row align-items-center">
+    @block header
+        <!-- block named "before_styles" defined in child template will be inserted here -->
+    @endblock
+
+    <div class="container">
+        @block content
+            <!-- block named "before_styles" defined in child template will be inserted here -->
+        @endblock
+    </div>
+
+    <footer class="app-footer sticky-footer">
+        @include 'layouts/admin/inc/footer.html'
+    </footer>
+
+    @block before_scripts
+        <!-- block named "before_styles" defined in child template will be inserted here -->
+    @endblock
+
+    @include 'layouts/admin/inc/scripts.html'
+
+    @block after_scripts
+        <!-- block named "before_styles" defined in child template will be inserted here -->
+    @endblock
 </body>
 </html>

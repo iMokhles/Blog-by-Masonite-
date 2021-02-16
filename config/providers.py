@@ -21,7 +21,7 @@ from masonite.logging.providers import LoggingProvider
 from masonite.validation.providers import ValidationProvider
 from masoniteorm.providers import ORMProvider
 from events.providers import EventProvider
-from app.providers import (UserModelProvider)
+from app.providers import (UserModelProvider,ViewComposerProvider)
 
 """Providers List
 Providers are a simple way to remove or add functionality for Masonite
@@ -41,6 +41,7 @@ PROVIDERS = [
     StatusCodeProvider,
     WhitenoiseProvider,
     ViewProvider,
+
     # Optional Framework Providers
     MailProvider,
     UploadProvider,
@@ -50,10 +51,13 @@ PROVIDERS = [
     HelpersProvider,
     ValidationProvider,
     EventProvider,
+
     # Third Party Providers
     LoggingProvider,
     ValidationProvider,
     ORMProvider,
+
     # Application Providers
     UserModelProvider,
+    ViewComposerProvider,
 ]
